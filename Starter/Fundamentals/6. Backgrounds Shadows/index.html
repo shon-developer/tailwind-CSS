@@ -10,12 +10,35 @@
   <body>
     <!-- Background Images -->
     <!-- https://tailwindcss.com/docs/background-image -->
-
+    <div
+      class="h-screen w-full bg-blue-500 bg-cover bg-no-repeat bg-center"
+      style="background-image: url()"
+    ></div>
     <!-- Shadows -->
     <!-- https://tailwindcss.com/docs/drop-shadow -->
     <!-- I know we didn't cover flexbox, but it's just for demo purposes -->
-
+    <div class="flex flex-wrap">
+      <div class="w-[400px] mt-10 ml-4 p-3 shadow-md">Shadow Medium</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-lg">Shadow Large</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-xl">Shadow xl</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-">Shadow 2xl</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-inner">Inner Shadow</div>
+    </div>
     <!-- Gradients -->
     <!-- https://tailwindcss.com/docs/gradient-color-stops -->
+    <div
+      class="h-40 bg-gradient-to-r from-pink-100 to-green-500 m-10 text-center p-40"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dicta quis
+      autem doloremque ratione, est architecto aperiam expedita distinctio id
+      beatae velit nulla itaque non veritatis porro eius nesciunt reiciendis!
+    </div>
+    <div
+      class="h-40 bg-gradient-to-r from-cyan-500 via-[crimson]-500 to-teal-500 mt-10 text-center p-40"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam labore
+      itaque, consectetur dolore porro dicta reiciendis voluptatum non odit. Quo
+      enim saepe hic impedit nihil sapiente tempore quia odio sunt.
+    </div>
   </body>
 </html>
